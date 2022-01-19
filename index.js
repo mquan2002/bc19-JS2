@@ -26,7 +26,7 @@ console.log("So thu tu tang dan:",Sothutu);
 Bước 1 : tạo biến B,M,A, người sử dụng
 Bước 2 : gán giá trị cho B,M,A lần lượt là bố, mẹ và anh
 Bước 3 : Nhập vào người sử dụng
-Bước 4 : sử dụng hàm if để xác định ai sử dụng
+Bước 4 : sử dụng hàm if else để xác định ai sử dụng
 Bước 5 : In kết quả chào hỏi người sử dụng ra console*/
 const Bai_2 ="Bai 2"
 console.log(Bai_2);
