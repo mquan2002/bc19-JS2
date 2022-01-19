@@ -56,24 +56,28 @@ Bước 4 : xuất số chẳn và lẻ ra console*/
 const Bai_3 ="Bai 3"
 console.log(Bai_3);
 
+
 const X = 7;
 const Y = 8;
 const Z = 10;
-let songuyen = ([X,Y,Z]);
+let songuyen = (X,Y,Z);
 console.log("Cho 3 so nguyen:",X,Y,Z);
 let countOdd, countEven;
+countEven = 0;
+countOdd = 0;
 
 if (songuyen%2)
 {
-    countOdd++;
+    songuyen(X) ? countEven++:countOdd++;
+    songuyen(Y) ? countEven++:countOdd++;
+    songuyen(Z) ? countEven++:countOdd++;
 }    
 else 
 {
-    countEven;
+   countOdd++;
 }
 console.log("So chan la:",countEven);
 console.log("So le la:",countOdd);
-
 
 
 
