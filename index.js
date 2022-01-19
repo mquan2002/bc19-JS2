@@ -49,19 +49,31 @@ if (nguoisudung === B)  {
 
 //Bai 3
 /* 
-Bước 1 : tạo biến X,Y, multiply
-Bước 2 : gán giá trị cho Y
-Bước 3 : Sử dụng công thức số tiến USD * giá VNĐ hiện nay = số tiến VNĐ
-Bước 4 : in số tiền sau khi quy đổi sang VNĐ ra console*/
+Bước 1 : tạo biến 3 số nguyên, số lẻ, số chẳn
+Bước 2 : gán giá trị cho 3 số nguyên
+Bước 3 : Sử dụng if else để check chẳn lẻ
+Bước 4 : xuất số chẳn và lẻ ra console*/
 const Bai_3 ="Bai 3"
 console.log(Bai_3);
 
 const X = 7;
 const Y = 8;
 const Z = 10;
-let songuyen = [X,Y,Z]
-let sochan, sole,p;
+let songuyen = ([X,Y,Z]);
 console.log("Cho 3 so nguyen:",X,Y,Z);
+let countOdd, countEven;
+
+if (songuyen%2)
+{
+    countOdd++;
+}    
+else 
+{
+    countEven;
+}
+console.log("So chan la:",countEven);
+console.log("So le la:",countOdd);
+
 
 
 
